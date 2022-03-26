@@ -195,7 +195,7 @@ content:
           Anteriormente estuve en el Colegio Cristobal Colón de Melipilla.
       - layout: left
         border: weak
-        title: <img src = "images/logo_UTFSM.png" alt = "UTFSM logo" height = 100px width = auto><br>Universidad Técnica Federico Santa María
+        title: <img src = "images/Logo_UTFSM.png" alt = "UTFSM logo" height = 100px width = auto><br>Universidad Técnica Federico Santa María
         caption: 2014 - 2019
         sub_title: Ingeniería Civil Informática
         quote: >
