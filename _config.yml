@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: benjajorquera/benjajorquera.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -17,7 +17,7 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  benjajorquera
+github_username: benjajorquera
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 facebook_username: benjajorqueraj
@@ -47,7 +47,7 @@ linkedin_username: benjamin-jorquera-jorquera-a22098197
 
 # About Section
 about_title: Sobre mí
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Tengo 26 años y vivo en Ñuñoa, Región Metropolitana de Chile. Entiendo el Inglés, tengo una gran carrera académica de estudios de Ciencias de la Computación, en dos de las mejores universidades del país, y también experiencia laboral como desarrollador Junior. 
 
@@ -58,6 +58,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        border: weak
         title: Universitarios
         # link: github.com/sproogen
         # link_text: Project Website
@@ -84,7 +85,11 @@ content:
           - Laboratorios de Evaluación de Proyectos Informáticos.
           - Taller de Programación Competitiva.
           - Ayudante de Introducción a la Ingeniería Informática, Fundamentos de Computación y Métodos de Programación (USACH 2021-2)
+
+          <br>
+          <p style="text-align:center;"><img src = "images/rpi.png" alt = "RPI logo" height = 100px width = auto> &ensp; <img src = "images/python.png" alt = "Python logo" height = 100px width = auto> &ensp; <img src = "images/c++.png" alt = "C++ logo" height = 100px width = auto> &ensp; <img src = "images/java.png" alt = "Java logo" height = 100px width = auto> &ensp; <img src = "images/scheme.png" alt = "Scheme logo" height = 100px width = auto> &ensp; <img src = "images/Rlogo.png" alt = "R logo" height = 100px width = auto> &ensp; <img src = "images/sql.png" alt = "MySQL logo" height = 100px width = auto> &ensp; <img src = "images/windows.png" alt = "Windows logo" height = 100px width = auto> &ensp; <img src = "images/ubuntu.png" alt = "Ubuntu logo" height = 100px width = auto> &ensp; <img src = "images/angular.png" alt = "Angular logo" height = 100px width = auto> &ensp; <img src = "images/spring.png" alt = "Spring logo" height = 100px width = auto> &ensp; <img src = "images/jupyter.png" alt = "Jupyter logo" height = 100px width = auto></p>
       - layout: top-middle
+        border: weak
         title: Personales
         link: https://github.com/benjajorquera?tab=repositories
         # link_text: Project Website
@@ -103,6 +108,9 @@ content:
           - Cursos Machine Learning y Data Science de [Kaggle](https://www.kaggle.com/benjajorquera)
           - Clasificador de especies de flores Iris con Machine Learning y Python.
           - Django/React/Redux Full Stack App Básico con autenticación.
+
+          <br>
+          <p style="text-align:center;"><img src = "images/MERN-logo.png" alt = "MERN logo" height = 100px width = auto> &ensp; <img src = "images/jekyll.png" alt = "Jekyll logo" height = 100px width = auto> &ensp; <img src = "images/kaggle.png" alt = "Kaggle logo" height = 100px width = auto> &ensp; <img src = "images/dyr.png" alt = "DYR logo" height = 100px width = auto> &ensp; <img src = "images/js.png" alt = "JS logo" height = 100px width = auto> &ensp; <img src = "images/postman.svg" alt = "Postman logo" height = 100px width = auto></p>
       - layout: top-middle
         title: Otros
         # link: https://github.com/benjajorquera?tab=repositories
@@ -122,11 +130,15 @@ content:
           - Resolución de problemas con C++ en [Hacker Rank](https://www.hackerrank.com/benja_jorquera_j)
           - Edición de videos con Sony Vegas
 
+          <br>
+          <p style="text-align:center;"><img src = "images/arduino.png" alt = "Arduino logo" height = 100px width = auto> &ensp; <img src = "images/HackerRank.png" alt = "HR logo" height = 100px width = auto> &ensp; <img src = "images/sv.png" alt = "SV logo" height = 100px width = auto></p>
+
   - title: Experiencia # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: La Taverna Della Piazza
+        border: weak
+        title: <img src= "images/ltdlp.png" alt = "LTDLP logo" height = 100px width = auto><br>La Taverna Della Piazza
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Garzón
@@ -136,7 +148,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           Trabajo de tiempo parcial, turnos de día y de noche, toda la semana y días festivos. Buena relación con los clientes y compañeros de trabajo.
       - layout: left
-        title: Detogni y Ripley
+        border: weak
+        title: <img src= "images/mall.svg" alt = "MPE logo" height = 100px width = auto><br>Detogni y Ripley
         link: https://dvomarket.cl/ 
         # link_text: boringcompany.com
         sub_title: Retail
@@ -146,22 +159,32 @@ content:
         description: | # this will include new lines to allow paragraphs
           Trabajo tiempo completo y apoyo de temporada. Asistente de ventas, manejo de caja e inventario. 
       - layout: left
-        title: Centry
+        title: <img src = "images/logo-centry.png" alt = "Centry logo" height = 100px width = auto><br>Centry
         link: https://home.centry.cl/
         # link_text: boringcompany.com
         sub_title: Desarrollador Full Stack
         caption: 2017 - 2018
+        #additional_links:
+         # - title:  <img src= "images/logo-centry.png">
+          #  icon: <img src= "images/logo-centry.png">
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           Centry es una pequeña empresa basada en una aplicación web de canales omnibus para el comercio electrónico.
         description: | # this will include new lines to allow paragraphs
           Comencé como practicante desarrollando un importador de productos de clientes de Mercado Libre. Con el tiempo mi contrato se extendió a Ingeniero de Software Junior, donde realicé actividadeds de apoyo y documentación, además con un equipo desarrollamos un panel de control de errores de sincronización de productos. Las tecnologías utilizadas fueron: Python, Ruby On Rails, JavaScript, Mongo DB, BitBucket, Postman, herramientas de Google, Microsoft Office, entre otras. Además de la integración y utilización de servicios como Shopify, WooCommerce, BSale, entre otros. 
+
+          <br>
+          <p style="text-align:center;"><img src = "images/ruby.png" alt = "Ruby logo" height = 70px width = auto> &ensp; <img src = "images/rails.png" alt = "Rails logo" height = 70px width = auto> &ensp; <img src = "images/mdb.png" alt = "Mongo logo" height = 70px width = auto> &ensp; <img src = "images/bb.png" alt = "BB logo" height = 70px width = auto> &ensp; <img src = "images/google.png" alt = "Google logo" height = 70px width = auto> &ensp; <img src = "images/ml.png" alt = "ML logo" height = 70px width = auto></p>
 
   - title: Educación # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak
-        title: Colegio Akros
+        title: <img src = "images/akros.png" alt = "Akros logo" height = 100px width = auto><br>Colegio Akros
         caption: 2012 - 2013
         sub_title: Enseñanza Media
         quote: >
@@ -172,7 +195,7 @@ content:
           Anteriormente estuve en el Colegio Cristobal Colón de Melipilla.
       - layout: left
         border: weak
-        title: Universidad Técnica Federico Santa María
+        title: <img src = "images/logo_UTFSM.png" alt = "UTFSM logo" height = 100px width = auto><br>Universidad Técnica Federico Santa María
         caption: 2014 - 2019
         sub_title: Ingeniería Civil Informática
         quote: >
@@ -187,9 +210,9 @@ content:
           - Ingeniería de Software y Datos: Bases de Datos, Análisis y Diseño de Software, Ingeniería de Software, y Diseño Interfaces Usuarias.
           - Industrial y Comercial: Economía, e Información y Matemáticas Financieras.
           - Análisis Numérico: Estadística Computacional.
-          - Humanistas, libres y deportes.
+          - Humanistas, libres y deportes: Inglés 4
       - layout: left
-        title: Universidad de Santiago de Chile
+        title: <img src = "images/usach.png" alt = "USACH logo" height = 100px width = auto><br>Universidad de Santiago de Chile
         caption: 2021 - Presente
         sub_title: Ingeniería de Ejecución en Computación e Informática
         quote: >
@@ -206,6 +229,11 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Mis pasatiempos e intereses son los deportes, la lectura, los videojuegos, el anime, el manga, las series, las películas, las hamburguesas, la cerveza, la pizza, la naturaleza, las juntas con amigos, las conversaciones y los viajes.
+
+      Aquí una foto de la Laguna Conguillio en invierno, del Parque Nacional Conguillio, ubicado en la Región de la Araucanía de Chile:
+
+      <br>
+      <p style="text-align:center;"><img src = "images/conguillio.jpg" alt = "Laguna Conguillio"></p>
 
 # Footer
 footer_show_references: true
