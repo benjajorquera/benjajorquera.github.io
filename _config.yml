@@ -53,9 +53,9 @@ about_content: | # this will include new lines to allow paragraphs
 
   Soy bueno en: <mark>Python</mark>, <mark>C++</mark> y <mark>Rocket League</mark>
 
-  Descarga mi [Resume PDF (ES)](https://raw.githubusercontent.com/benjajorquera/benjajorquera.github.io/master/benjaminJorqueraResume(ES).pdf)
+  Descarga mi [Resume PDF (ES)](https://github.com/benjajorquera/benjajorquera.github.io/blob/master/benjaminJorqueraResume(ES).pdf)
   
-  Download my [Resume PDF (EN)](https://raw.githubusercontent.com/benjajorquera/benjajorquera.github.io/master/benjaminJorqueraResume(EN).pdf)
+  Download my [Resume PDF (EN)](https://github.com/benjajorquera/benjajorquera.github.io/blob/master/benjaminJorqueraResume(EN).pdf)
 
 content:
   - title: Proyectos # Title for the section
