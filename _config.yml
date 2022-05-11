@@ -49,7 +49,7 @@ linkedin_username: benjaminjorquera
 about_title: Sobre mí
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Tengo 26 años y vivo en Ñuñoa, Región Metropolitana de Chile. Entiendo el Inglés, tengo una gran carrera académica de estudios de Ciencias de la Computación, en dos de las mejores universidades del país, y también experiencia laboral como desarrollador Junior. 
+  Estoy a punto de egresar como Ingeniero de Ejecución en Computación e Informática, ex estudiante de Ingeniería Civil Informática, tengo 26 años y vivo en Ñuñoa, Santiago de Chile. Me gustan los desafíos y la ciencia de datos, aprendo rápido, inquisitivo en resolver problemas y trabajar en equipo, flexible ante cambios y me adapto a cualquier tipo de ambiente. Tengo experiencia como Desarrollador de Software Junior en una empresa de E-commerce.
 
   Soy bueno en: <mark>Python</mark>, <mark>C++</mark> y <mark>Rocket League</mark>
 
@@ -77,21 +77,21 @@ content:
           Estos proyectos fueron realizados en algunas asignaturas de las universidades en las que he estado.
         description: | # this will include new lines to allow paragraphs
           - Máscara de luces leds y sensor de sonido, con Raspberry Pi y Arduino.
-          - Laboratorios con Python, C, C++, Java, Scheme, R, SQL, git.
+          - Laboratorios con Python, C, C++, Java, Scheme, R, SQL, GitHub.
           - Laboratorios con Circuitos, Assembly, Maquinas de Turing, Sistemas Operativos y Redes.
-          - Proyectos de Ingeniería de Software con Angular y Node.
+          - Proyectos de Ingeniería de Software con Angular y NodeJS.
           - Proyecto Social de Inserción Digital para el Adulto Mayor.
           - Laboratorios de Programación Lineal/Lineal Entera, e Investigación de Operaciones.
-          - Proyecto de Bases de Datos con MySQL, PostgreSQL, MongoDB, y Java SPRING.
+          - Proyecto de Bases de Datos con MySQL, Oracle, PostgreSQL, MongoDB, y Java SPRING.
           - Laboratorios de Ciencias de Datos, Jupyter Notebooks y RStudio.
           - Redacción de informes científicos, sistemas, gestión, y análisis.
           - Laboratorios de Ciberseguridad.
           - Laboratorios de Evaluación de Proyectos Informáticos.
-          - Taller de Programación Competitiva.
+          - Taller de Programación Competitiva en Online Judge.
           - Ayudante de Introducción a la Ingeniería Informática, Fundamentos de Computación y Métodos de Programación (USACH 2021-2)
 
           <br>
-          <p style="text-align:center;"><img src = "images/rpi.png" alt = "RPI logo" height = 100px width = auto> &ensp; <img src = "images/python.png" alt = "Python logo" height = 100px width = auto> &ensp; <img src = "images/c++.png" alt = "C++ logo" height = 100px width = auto> &ensp; <img src = "images/java.png" alt = "Java logo" height = 100px width = auto> &ensp; <img src = "images/scheme.png" alt = "Scheme logo" height = 100px width = auto> &ensp; <img src = "images/Rlogo.png" alt = "R logo" height = 100px width = auto> &ensp; <img src = "images/sql.png" alt = "MySQL logo" height = 100px width = auto> &ensp; <img src = "images/psql.png" alt = "PSQL logo" height = 100px width = auto> &ensp; <img src = "images/git.png" alt = "Git logo" height = 100px width = auto> &ensp; <img src = "images/windows.png" alt = "Windows logo" height = 100px width = auto> &ensp; <img src = "images/ubuntu.png" alt = "Ubuntu logo" height = 100px width = auto> &ensp; <img src = "images/angular.png" alt = "Angular logo" height = 100px width = auto> &ensp; <img src = "images/spring.png" alt = "Spring logo" height = 100px width = auto> &ensp; <img src = "images/jupyter.png" alt = "Jupyter logo" height = 100px width = auto></p>
+          <p style="text-align:center;"> &ensp; <img src = "images/python.png" alt = "Python logo" height = 100px width = auto> &ensp; <img src = "images/c++.png" alt = "C++ logo" height = 100px width = auto> &ensp; <img src = "images/java.png" alt = "Java logo" height = 100px width = auto> &ensp; &ensp; <img src = "images/Rlogo.png" alt = "R logo" height = 100px width = auto> &ensp; &ensp; <img src = "images/psql.png" alt = "PSQL logo" height = 100px width = auto> &ensp; <img src = "images/git.png" alt = "Git logo" height = 100px width = auto> &ensp; <img src = "images/windows.png" alt = "Windows logo" height = 100px width = auto> &ensp; <img src = "images/ubuntu.png" alt = "Ubuntu logo" height = 100px width = auto> &ensp; &ensp; <img src = "images/spring.png" alt = "Spring logo" height = 100px width = auto> &ensp; <img src = "images/jupyter.png" alt = "Jupyter logo" height = 100px width = auto></p>
       - layout: top-middle
         border: weak
         title: Personales
@@ -107,14 +107,15 @@ content:
         quote: >
           Estos proyectos fueron realizados de manera independiente.
         description: | # this will include new lines to allow paragraphs
-          - MERN Stack Básico (MongoDB, Express, React, Node) con autenticación.
-          - Página Web con Jekyll y Bundler.
-          - Cursos Machine Learning y Data Science de [Kaggle](https://www.kaggle.com/benjajorquera)
+          - MERN Stack básico (MongoDB, ExpressJS, ReactJS, NodeJS) con autenticación.
+          - Carrito de compras básico con PERN Stack (PostgreSQL, ExpressJS, ReactJS, NodeJS) y Material-UI.
+          - Página Web Portafolio con Jekyll y Bundler.
+          - Cursos básicos de Machine Learning y Data Science de [Kaggle](https://www.kaggle.com/benjajorquera)
           - Clasificador de especies de flores Iris con Machine Learning y Python.
-          - Django/React/Redux Full Stack App Básico con autenticación.
+          - Django/React/Redux Full Stack App básico con autenticación.
 
           <br>
-          <p style="text-align:center;"><img src = "images/MERN-logo.png" alt = "MERN logo" height = 100px width = auto> &ensp; <img src = "images/jekyll.png" alt = "Jekyll logo" height = 100px width = auto> &ensp; <img src = "images/kaggle.png" alt = "Kaggle logo" height = 100px width = auto> &ensp; <img src = "images/dyr.png" alt = "DYR logo" height = 100px width = auto> &ensp; <img src = "images/js.png" alt = "JS logo" height = 100px width = auto> &ensp; <img src = "images/postman.svg" alt = "Postman logo" height = 100px width = auto></p>
+          <p style="text-align:center;"><img src = "images/MERN-logo.png" alt = "MERN logo" height = 100px width = auto> &ensp; <img src = "images/pern.png" alt = "PERN logo" height = 100px width = auto> &ensp; <img src = "images/mui.png" alt = "MUI logo" height = 100px width = auto> &ensp; <img src = "images/jekyll.png" alt = "Jekyll logo" height = 100px width = auto> &ensp; <img src = "images/kaggle.png" alt = "Kaggle logo" height = 100px width = auto> &ensp; <img src = "images/dyr.png" alt = "DYR logo" height = 100px width = auto> &ensp; <img src = "images/js.png" alt = "JS logo" height = 100px width = auto> &ensp; <img src = "images/postman.svg" alt = "Postman logo" height = 100px width = auto></p>
       - layout: top-middle
         title: Otros
         # link: https://github.com/benjajorquera?tab=repositories
@@ -129,13 +130,13 @@ content:
         # quote: >
           # Estos proyectos fueron realizados de manera independiente: 
         description: | # this will include new lines to allow paragraphs
-          - Controlador MIDI con Arduino.
-          - Sensor de distancias y alarma para bicicletas con Arduino.
+          - Controlador MIDI con Arduino y C++.
+          - Sensor de distancias y alarma para bicicletas con Arduino y C++ más circuito.
           - Resolución de problemas con C++ en [Hacker Rank](https://www.hackerrank.com/benja_jorquera_j)
           - Edición de videos con Sony Vegas
 
           <br>
-          <p style="text-align:center;"><img src = "images/arduino.png" alt = "Arduino logo" height = 100px width = auto> &ensp; <img src = "images/HackerRank.png" alt = "HR logo" height = 100px width = auto> &ensp; <img src = "images/sv.png" alt = "SV logo" height = 100px width = auto></p>
+          <p style="text-align:center;"><img src = "images/arduino.png" alt = "Arduino logo" height = 100px width = auto> &ensp; <img src = "images/HackerRank.png" alt = "HR logo" height = 100px width = auto> &ensp; <img src = "images/rpi.png" alt = "RPI logo" height = 100px width = auto></p>
 
   - title: Experiencia # Title for the section
     layout: list # Type of content section (list/text)
@@ -166,7 +167,7 @@ content:
         title: <img src = "images/logo-centry.png" alt = "Centry logo" height = 100px width = auto><br>Centry
         link: https://home.centry.cl/
         # link_text: boringcompany.com
-        sub_title: Desarrollador Full Stack
+        sub_title: Desarrollador de Software Junior
         caption: 2017 - 2018
         #additional_links:
          # - title:  <img src= "images/logo-centry.png">
@@ -178,8 +179,7 @@ content:
         quote: >
           Centry es una pequeña empresa basada en una aplicación web de canales omnibus para el comercio electrónico.
         description: | # this will include new lines to allow paragraphs
-          Comencé como practicante desarrollando un importador de productos de clientes de Mercado Libre con Python y Google Sheets. Con el tiempo mi contrato se extendió a Ingeniero de Software Junior, donde realicé actividadeds de apoyo y documentación, además con un equipo desarrollamos un panel de control de errores de sincronización de productos. Las tecnologías utilizadas fueron: Python, Ruby On Rails, Bundler, Bootstrap, JavaScript, Mongo DB, BitBucket, Postman, herramientas de Google, Microsoft Office, entre otras. Además de la integración y utilización de servicios como Shopify, WooCommerce, BSale, entre otros. 
-
+          Centry es una pequeña empresa basada en una aplicación web de canales omnibus para el comercio electrónico. Donde comencé como practicante desarrollando un importador de productos de clientes de Mercado Libre. Luego trabajé como Desarrollador de Software Junior, donde realicé actividades de apoyo, documentación, y desarrollo Full Stack, además con un equipo desarrollamos un visualizador de errores de sincronización de productos. Las tecnologías utilizadas fueron: Python, Ruby On Rails, Bundler, HTML/CSS/Bootstrap, JavaScript, MongoDB, Robo3T, BitBucket, Postman, Sidekiq, JQuery, herramientas de Google, Microsoft Office, entre otras. Además de la integración y utilización de servicios como Shopify, WooCommerce, BSale, entre otros.
           <br>
           <p style="text-align:center;"><img src = "images/ruby.png" alt = "Ruby logo" height = 70px width = auto> &ensp; <img src = "images/rails.png" alt = "Rails logo" height = 70px width = auto>  &ensp; <img src = "images/boots.png" alt = "BTSTRAP logo" height = 70px width = auto>&ensp; <img src = "images/mdb.png" alt = "Mongo logo" height = 70px width = auto> &ensp; <img src = "images/bb.png" alt = "BB logo" height = 70px width = auto> &ensp; <img src = "images/google.png" alt = "Google logo" height = 70px width = auto> &ensp; <img src = "images/ml.png" alt = "ML logo" height = 70px width = auto></p>
 
@@ -205,7 +205,7 @@ content:
         quote: >
           La Universidad Técnica Federico Santa María es una universidad tradicional privada chilena, perteneciente al Consejo de Rectores de las Universidades Chilenas, a la Agrupación de Universidades Regionales de Chile, a la Red Universitaria Cruz del Sur y a la Red Universitaria G9.
         description: | # this will include new lines to allow paragraphs
-          Después de cinco años decido retirarme voluntariamente de la institución, a continuación un resumen del Plan de Estudios aprobado:
+          Después de cinco años decido retirarme voluntariamente de la institución, a continuación un resumen del 70% del Plan de Estudios aprobado:
           - Fundamentos de Informática: Programación, Estructura de Datos, Lenguajes de Programación, Estructuras Discretas, Informática Teórica, y Algoritmos y Complejidad.
           - Matemáticas, Físicas y Química: Cálculo y Álgebra avanzados, Álgebra Lineal, Cálculo Integral y Diferencial, Ecuaciones Diferenciales Ordinarias y Parciales, Lógica, Física Clásica, Termodinámica, Fluidos y Ondas, y Química y Sociedad.
           - Transversal e Integración: Introducción a la Ingeniería, e Ingeniería, Informática y Sociedad.
@@ -222,7 +222,7 @@ content:
         quote: >
           La Universidad de Santiago de Chile cuenta con una vasta trayectoria académica de 172 años y se proyecta como un plantel de excelencia, con énfasis en la investigación y una mirada global.
         description: | # this will include new lines to allow paragraphs
-          Actualmente cursando último año y aprobados los siguientes ramos: 
+          Actualmente cursando último año y aprobado el 90% con los siguientes ramos: 
           - Ciencias y Computación: Métodos Numéricos, Electromagnetismo, y Taller de Bases de Datos.
           - Transversales: Ingeniería de Sistemas.
           - Especialidades: Inferencia y Modelos Estadísticos, y Ciberseguridad.
@@ -232,7 +232,7 @@ content:
   - title: Un poco más sobre mí
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Mis pasatiempos e intereses son los deportes, la lectura, los videojuegos, el anime, el manga, las series, las películas, las hamburguesas, la cerveza, la pizza, la naturaleza, las juntas con amigos, las conversaciones y los viajes.
+      Mis pasatiempos e intereses son los deportes, videojuegos, anime y manga, hamburguesas, cerveza, la naturaleza y las juntas con amigos.
 
       Aquí una foto de la Laguna Conguillio en invierno, del Parque Nacional Conguillio, ubicado en la Región de la Araucanía de Chile:
 
