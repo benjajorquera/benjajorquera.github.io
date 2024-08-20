@@ -1,6 +1,5 @@
 # benjajorquera.github.io
-Resume
 
-CV Personal
+Computer engineering professional portfolio
 
-Hecho con: https://github.com/sproogen/modern-resume-theme
+Source: https://github.com/sproogen/modern-resume-theme
