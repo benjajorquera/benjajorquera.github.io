@@ -1,4 +1,4 @@
-# benjajorquera.github.io
+# Benjamín Jorquera Jorquera
 
 Computer engineering professional portfolio
 
