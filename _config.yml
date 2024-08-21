@@ -1,254 +1,43 @@
-# Site
-repository: benjajorquera/benjajorquera.github.io
-favicon: images/favicon.ico
-
-# Content configuration version
-version: 2
-
-# Personal info
-name: Benjamín Jorquera
-title: Estudiante Ingeniería de Ejecución en Computación e Informática
+# site settings
+title: Portfolio
+subtitle: by HTML5 UP
 email: benja.jorquera.j@gmail.com
-phone: +569 93362209
-website: www.benjajorquera.github.com
+description: Computer engineering professional portfolio
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+url: https://benjajorquera.github.io/ # the base hostname & protocol for your site
+author:
+street_address: Ñuñoa
+city: Santiago
+state: RM
+zip_code: 
+country: Chile
+phone: (+569)93362209
 
-# Dark Mode (true/false/never)
-darkmode: false
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-# Social links
-# twitter_username: facespics
-github_username: benjajorquera
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-facebook_username: benjajorqueraj
-# flickr_username: jekyll
-instagram_username: benyiciones
-linkedin_username: benjaminjorquera
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/benjajorquera
+  GitLab:
+  Google-Plus:
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/benjaminjorquera/
+  Twitter:
+  Facebook:
+  Slack:
 
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-about_title: Sobre mí
-about_profile_image: images/profile.jpeg
-about_content: | # this will include new lines to allow paragraphs
-  Estoy a punto de egresar como Ingeniero de Ejecución en Computación e Informática, ex estudiante de Ingeniería Civil Informática, tengo 26 años y vivo en Ñuñoa, Santiago de Chile. Me gustan los desafíos y la ciencia de datos, aprendo rápido, inquisitivo en resolver problemas y trabajar en equipo, flexible ante cambios y me adapto a cualquier tipo de ambiente. Tengo experiencia como Desarrollador de Software Junior en una empresa de E-commerce.
-
-  Soy bueno en: <mark>Python</mark>, <mark>C++</mark> y <mark>Rocket League</mark>
-
-  Descarga mi [Resume PDF (ES)](https://raw.githubusercontent.com/benjajorquera/benjajorquera.github.io/master/benjaminJorqueraResume(ES).pdf)
-  
-  Download my [Resume PDF (EN)](https://raw.githubusercontent.com/benjajorquera/benjajorquera.github.io/master/benjaminJorqueraResume(EN).pdf)
-
-content:
-  - title: Proyectos # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        border: weak
-        title: Universitarios
-        # link: github.com/sproogen
-        # link_text: Project Website
-        # additional_links:
-          # - title:  sproogen/modern-resume-theme
-            # icon: fab fa-github
-            # url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Estos proyectos fueron realizados en algunas asignaturas de las universidades en las que he estado.
-        description: | # this will include new lines to allow paragraphs
-          - Máscara de luces leds y sensor de sonido, con Raspberry Pi y Arduino.
-          - Laboratorios con Python, C, C++, Java, Scheme, R, SQL, GitHub.
-          - Laboratorios con Circuitos, Assembly, Maquinas de Turing, Sistemas Operativos y Redes.
-          - Proyectos de Ingeniería de Software con Angular y NodeJS.
-          - Proyecto Social de Inserción Digital para el Adulto Mayor.
-          - Laboratorios de Programación Lineal/Lineal Entera, e Investigación de Operaciones.
-          - Proyecto de Bases de Datos con MySQL, Oracle, PostgreSQL, MongoDB, y Java SPRING.
-          - Laboratorios de Ciencias de Datos, Jupyter Notebooks y RStudio.
-          - Redacción de informes científicos, sistemas, gestión, y análisis.
-          - Laboratorios de Ciberseguridad.
-          - Laboratorios de Evaluación de Proyectos Informáticos.
-          - Taller de Programación Competitiva en Online Judge.
-          - Ayudante de Introducción a la Ingeniería Informática, Fundamentos de Computación y Métodos de Programación (USACH 2021-2)
-
-          <br>
-          <p style="text-align:center;"> &ensp; <img src = "images/python.png" alt = "Python logo" height = 100px width = auto> &ensp; <img src = "images/c++.png" alt = "C++ logo" height = 100px width = auto> &ensp; <img src = "images/java.png" alt = "Java logo" height = 100px width = auto> &ensp; &ensp; <img src = "images/Rlogo.png" alt = "R logo" height = 100px width = auto> &ensp; &ensp; <img src = "images/psql.png" alt = "PSQL logo" height = 100px width = auto> &ensp; <img src = "images/git.png" alt = "Git logo" height = 100px width = auto> &ensp; <img src = "images/windows.png" alt = "Windows logo" height = 100px width = auto> &ensp; <img src = "images/ubuntu.png" alt = "Ubuntu logo" height = 100px width = auto> &ensp; &ensp; <img src = "images/spring.png" alt = "Spring logo" height = 100px width = auto> &ensp; <img src = "images/jupyter.png" alt = "Jupyter logo" height = 100px width = auto></p>
-      - layout: top-middle
-        border: weak
-        title: Personales
-        link: https://github.com/benjajorquera?tab=repositories
-        # link_text: Project Website
-        # additional_links:
-          # - title:  sproogen/modern-resume-theme
-            # icon: fab fa-github
-            # url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Estos proyectos fueron realizados de manera independiente.
-        description: | # this will include new lines to allow paragraphs
-          - MERN Stack básico (MongoDB, ExpressJS, ReactJS, NodeJS) con autenticación.
-          - Carrito de compras básico con PERN Stack (PostgreSQL, ExpressJS, ReactJS, NodeJS) y Material-UI.
-          - Página Web Portafolio con Jekyll y Bundler.
-          - Cursos básicos de Machine Learning y Data Science de [Kaggle](https://www.kaggle.com/benjajorquera)
-          - Clasificador de especies de flores Iris con Machine Learning y Python.
-          - Django/React/Redux Full Stack App básico con autenticación.
-
-          <br>
-          <p style="text-align:center;"><img src = "images/MERN-logo.png" alt = "MERN logo" height = 100px width = auto> &ensp; <img src = "images/pern.png" alt = "PERN logo" height = 100px width = auto> &ensp; <img src = "images/mui.png" alt = "MUI logo" height = 100px width = auto> &ensp; <img src = "images/jekyll.png" alt = "Jekyll logo" height = 100px width = auto> &ensp; <img src = "images/kaggle.png" alt = "Kaggle logo" height = 100px width = auto> &ensp; <img src = "images/dyr.png" alt = "DYR logo" height = 100px width = auto> &ensp; <img src = "images/js.png" alt = "JS logo" height = 100px width = auto> &ensp; <img src = "images/postman.svg" alt = "Postman logo" height = 100px width = auto></p>
-      - layout: top-middle
-        title: Otros
-        # link: https://github.com/benjajorquera?tab=repositories
-        # link_text: Project Website
-        # additional_links:
-          # - title:  sproogen/modern-resume-theme
-            # icon: fab fa-github
-            # url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-          # Estos proyectos fueron realizados de manera independiente: 
-        description: | # this will include new lines to allow paragraphs
-          - Controlador MIDI con Arduino y C++.
-          - Sensor de distancias y alarma para bicicletas con Arduino y C++ más circuito.
-          - Resolución de problemas con C++ en [Hacker Rank](https://www.hackerrank.com/benja_jorquera_j)
-          - Edición de videos con Sony Vegas
-
-          <br>
-          <p style="text-align:center;"><img src = "images/arduino.png" alt = "Arduino logo" height = 100px width = auto> &ensp; <img src = "images/HackerRank.png" alt = "HR logo" height = 100px width = auto> &ensp; <img src = "images/rpi.png" alt = "RPI logo" height = 100px width = auto></p>
-
-  - title: Experiencia # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak
-        title: <img src= "images/ltdlp.png" alt = "LTDLP logo" height = 100px width = auto><br>La Taverna Della Piazza
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Garzón
-        caption: 2014 - 2016
-        quote: >
-          La Taverna Della Piazza fué un restaurante Italiano familar de gran reputación, ubicado en Plaza Ñuñoa, corazón de esa comuna. El restaurante era un espacio de encuentro, celebración, relajación y comida gourmet.
-        description: | # this will include new lines to allow paragraphs
-          Trabajo de tiempo parcial, turnos de día y de noche, toda la semana y días festivos. Buena relación con los clientes y compañeros de trabajo.
-      - layout: left
-        border: weak
-        title: <img src= "images/mall.svg" alt = "MPE logo" height = 100px width = auto><br>Detogni y Ripley
-        link: https://dvomarket.cl/ 
-        # link_text: boringcompany.com
-        sub_title: Retail
-        caption: Verano 2016 / 2019
-        quote: >
-          Detogni es una tienda de zapatos para mujer, y Ripley una multitienda nacional.
-        description: | # this will include new lines to allow paragraphs
-          Trabajo tiempo completo y apoyo de temporada. Asistente de ventas, manejo de caja e inventario. 
-      - layout: left
-        title: <img src = "images/logo-centry.png" alt = "Centry logo" height = 100px width = auto><br>Centry
-        link: https://home.centry.cl/
-        # link_text: boringcompany.com
-        sub_title: Desarrollador de Software Junior
-        caption: 2017 - 2018
-        #additional_links:
-         # - title:  <img src= "images/logo-centry.png">
-          #  icon: <img src= "images/logo-centry.png">
-            # url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Centry es una pequeña empresa basada en una aplicación web de canales omnibus para el comercio electrónico.
-        description: | # this will include new lines to allow paragraphs
-          Centry es una pequeña empresa basada en una aplicación web de canales omnibus para el comercio electrónico. Donde comencé como practicante desarrollando un importador de productos de clientes de Mercado Libre. Luego trabajé como Desarrollador de Software Junior, donde realicé actividades de apoyo, documentación, y desarrollo Full Stack, además con un equipo desarrollamos un visualizador de errores de sincronización de productos. Las tecnologías utilizadas fueron: Python, Ruby On Rails, Bundler, HTML/CSS/Bootstrap, JavaScript, MongoDB, Robo3T, BitBucket, Postman, Sidekiq, JQuery, herramientas de Google, Microsoft Office, entre otras. Además de la integración y utilización de servicios como Shopify, WooCommerce, BSale, entre otros.
-          <br>
-          <p style="text-align:center;"><img src = "images/ruby.png" alt = "Ruby logo" height = 70px width = auto> &ensp; <img src = "images/rails.png" alt = "Rails logo" height = 70px width = auto>  &ensp; <img src = "images/boots.png" alt = "BTSTRAP logo" height = 70px width = auto> &ensp; <img src = "images/mdb.png" alt = "Mongo logo" height = 70px width = auto> &ensp; <img src = "images/robomongo.png" alt = "Robomongo logo" height = 70px width = auto> &ensp; <img src = "images/bb.png" alt = "BB logo" height = 70px width = auto> &ensp; <img src = "images/google.png" alt = "Google logo" height = 70px width = auto> &ensp; <img src = "images/ml.png" alt = "ML logo" height = 70px width = auto></p>
-
-  - title: Educación # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak
-        title: <img src = "images/akros.png" alt = "Akros logo" height = 100px width = auto><br>Colegio Akros
-        caption: 2012 - 2013
-        sub_title: Enseñanza Media
-        quote: >
-          Colegio Akros, es un establecimiento mixto, laico, de formación científico humanista, que entrega educación prebásica, básica y media.
-        description: | # this will include new lines to allow paragraphs
-          Tomé los electivos de física y matemáticas, realicé pre-unviersitario de ciencias y matemáticas. Me destaqué en deportes, especialmente en atletismo. Mi promedio de notas fué 64 aproximadamente.
-
-          Anteriormente estuve en el Colegio Cristobal Colón de Melipilla.
-      - layout: left
-        border: weak
-        title: <img src = "images/Logo_UTFSM.png" alt = "UTFSM logo" height = 100px width = auto><br>Universidad Técnica Federico Santa María
-        caption: 2014 - 2019
-        sub_title: Ingeniería Civil Informática
-        quote: >
-          La Universidad Técnica Federico Santa María es una universidad tradicional privada chilena, perteneciente al Consejo de Rectores de las Universidades Chilenas, a la Agrupación de Universidades Regionales de Chile, a la Red Universitaria Cruz del Sur y a la Red Universitaria G9.
-        description: | # this will include new lines to allow paragraphs
-          Después de cinco años decido retirarme voluntariamente de la institución, a continuación un resumen del 70% del Plan de Estudios aprobado:
-          - Fundamentos de Informática: Programación, Estructura de Datos, Lenguajes de Programación, Estructuras Discretas, Informática Teórica, y Algoritmos y Complejidad.
-          - Matemáticas, Físicas y Química: Cálculo y Álgebra avanzados, Álgebra Lineal, Cálculo Integral y Diferencial, Ecuaciones Diferenciales Ordinarias y Parciales, Lógica, Física Clásica, Termodinámica, Fluidos y Ondas, y Química y Sociedad.
-          - Transversal e Integración: Introducción a la Ingeniería, e Ingeniería, Informática y Sociedad.
-          - Sistemas de Información y de Decisión: Teoría de Sistemas, Organización y Sistemas de Información, Optimización, Investigación de Operaciones, y Sistemas de Gestión.
-          - Infraestructura TIC: Arquitectura y Organización de Computadores, Sistemas Operativos, y Redes computacionales.
-          - Ingeniería de Software y Datos: Bases de Datos, Análisis y Diseño de Software, Ingeniería de Software, y Diseño Interfaces Usuarias.
-          - Industrial y Comercial: Economía, e Información y Matemáticas Financieras.
-          - Análisis Numérico: Estadística Computacional.
-          - Humanistas, libres y deportes: Inglés 4
-      - layout: left
-        title: <img src = "images/usach.png" alt = "USACH logo" height = 100px width = auto><br>Universidad de Santiago de Chile
-        caption: 2021 - Presente
-        sub_title: Ingeniería de Ejecución en Computación e Informática
-        quote: >
-          La Universidad de Santiago de Chile cuenta con una vasta trayectoria académica de 172 años y se proyecta como un plantel de excelencia, con énfasis en la investigación y una mirada global.
-        description: | # this will include new lines to allow paragraphs
-          Actualmente cursando último año y aprobado el 90% con los siguientes ramos: 
-          - Ciencias y Computación: Métodos Numéricos, Electromagnetismo, y Taller de Bases de Datos.
-          - Transversales: Ingeniería de Sistemas.
-          - Especialidades: Inferencia y Modelos Estadísticos, y Ciberseguridad.
-          - Industrial y Comercial: Evaluación de Proyectos Informáticos.
-          - Humanistas: Comunicación Efectiva.
-
-  - title: Un poco más sobre mí
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Mis pasatiempos e intereses son los deportes, videojuegos, anime y manga, hamburguesas, cerveza, la naturaleza y las juntas con amigos.
-
-      Aquí una foto de la Laguna Conguillio en invierno, del Parque Nacional Conguillio, ubicado en la Región de la Araucanía de Chile:
-
-      <br>
-      <p style="text-align:center;"><img src = "images/conguillio.jpg" alt = "Laguna Conguillio"></p>
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
+# build settings
+markdown: kramdown
 
 sass:
-  sass_dir: _sass
   style: compressed
 
-plugins:
- - jekyll-seo-tag
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- README.md 
