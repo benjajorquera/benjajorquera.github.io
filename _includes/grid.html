@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Custom Grid Layout</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+	<style>
+		.custom-grid-section {
+			padding: 50px 20px;
+			text-align: center;
+		}
+
+		.custom-container {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.custom-main-title {
+			font-size: 2.5em;
+			font-weight: 800;
+			margin-bottom: 20px;
+		}
+
+		.custom-subtitle {
+			font-size: 1.1em;
+			font-weight: 400;
+			margin-bottom: 50px;
+		}
+
+		.custom-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 0;
+		}
+
+		.custom-grid-item {
+			padding: 30px;
+			transition: transform 1s ease;
+		}
+
+		/* #AA98B5 */
+
+		.custom-grid-first-item {
+			background: #897098;
+		}
+
+		.custom-grid-second-item {
+			background: #725483;
+		}
+
+		.custom-grid-third-item {
+			background: #5D3A6F;
+		}
+
+		.custom-grid-fourth-item {
+			background: #57356A;
+		}
+
+		.custom-grid-fifth-item {
+			background: #4D2D61;
+		}
+
+		.custom-grid-sixth-item {
+			background: #442858;
+		}
+
+		.custom-grid-seventh-item {
+			background: #371C4B;
+		}
+
+		.custom-grid-item:hover {
+			transform: scale(0.98);
+		}
+
+		.custom-grid-icon {
+			margin-bottom: 15px;
+		}
+
+		.custom-icon {
+			font-size: 3em;
+		}
+
+		.custom-grid-title {
+			font-size: 1.3em;
+			font-weight: 600;
+			margin-bottom: 15px;
+		}
+
+		.custom-grid-text {
+			font-size: 1em;
+			font-weight: 400;
+			margin: 0;
+			line-height: 1.5em;
+		}
+	</style>
+</head>
+
+<body>
+	<section class="custom-grid-section">
+		<div class="custom-container">
+			<h2 class="custom-main-title">Centry</h2>
+			<p class="custom-subtitle">Centry is an advanced integration platform for marketplaces that centralizes and
+				optimizes sales management across multiple channels. It enables companies to view and control orders,
+				messages and inventory from a single interface, facilitating an efficient and coordinated operation
+				across all connected marketplaces.</p>
+			<div class="custom-grid">
+				<div class="custom-grid-item custom-grid-first-item">
+					<div class="custom-grid-icon"><img src="https://cdn-icons-png.flaticon.com/512/1945/1945703.png"
+							height="80" width="80" alt="Internship icon" title="Internship" class="custom-icon">
+					</div>
+					<h3 class="custom-grid-title">Internship</h3>
+					<p class="custom-grid-text">First professional internship as a civil computer engineer
+						at the end of 2017, which was partially extended during 2018 in the role of junior software
+						developer. During this time, I kept a detailed log of my tasks.</p>
+				</div>
+				<div class="custom-grid-item custom-grid-second-item">
+					<div class="custom-grid-icon"><img src="https://cdn-icons-png.flaticon.com/512/16174/16174933.png"
+							width="80" height="80" alt="Product scraper icon" title="Product scraper"
+							class="custom-icon"></div>
+					<h3 class="custom-grid-title">Product scraper</h3>
+					<p class="custom-grid-text">My greatest achievement was developing a tool to import a client's
+						product information from MercadoLibre into an Excel file. Using MercadoLibre's API and Python, I
+						created a customizable importer that extracted detailed product data such as SKU, color, size,
+						and images. This tool streamlined the team’s tasks and supported the business area in managing
+						user requests and requirements, thanks to its intuitive and efficient interface.</p>
+				</div>
+				<div class="custom-grid-item custom-grid-third-item">
+					<div class="custom-grid-icon"><img src="https://cdn-icons-png.flaticon.com/512/14466/14466854.png"
+							width="80" height="80" alt="Tech stack icon" title="Tech stack" class="custom-icon">
+					</div>
+					<h3 class="custom-grid-title">Tech stack</h3>
+					<p class="custom-grid-text">The tech stack comprised MongoDB as the database, Ruby on Rails as the
+						web application framework, and JavaScript for client-side scripting. Additionally, Bitbucket was
+						used for version control, and Postman was employed for API integration and testing, allowing for
+						thorough testing and efficient management of RESTful HTTP methods.</p>
+				</div>
+				<div class="custom-grid-item custom-grid-fourth-item">
+					<div class="custom-grid-icon"><img src="https://cdn-icons-png.flaticon.com/512/5230/5230692.png"
+							width="80" height="80" alt="Sync tools icon" title="Sync tools" class="custom-icon">
+					</div>
+					<h3 class="custom-grid-title">Sync tools & docs</h3>
+					<p class="custom-grid-text">With the team, we developed a tool to visualize product synchronization
+						errors between various platforms and the application, aiding in monitoring critical issues for
+						app functionality. Additionally, I improved project documentation and provided client support
+						while working with platforms like BSale, WooCommerce, and Shopify.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>

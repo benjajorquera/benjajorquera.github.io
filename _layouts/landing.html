@@ -30,7 +30,17 @@
         </div>
     </section>
 
+    {% if page.about %}
+    {% include about.html %}
+    {% endif %}
+
     {{ content }}
+
+    {% if page.grid %}
+    <section style="border-bottom: solid 1px rgba(212, 212, 255, .1);">
+        {% include grid.html %}
+    </section>
+    {% endif %}
 
     {% include footer.html %}
 
