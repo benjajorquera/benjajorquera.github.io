@@ -1,6 +1,6 @@
-# Benjamín Jorquera Jorquera
+# Computer engineering professional portfolio
 
-Computer engineering professional portfolio
+by Benjamín Jorquera Jorquera
 
 Source: https://github.com/andrewbanchich/forty-jekyll-theme
 

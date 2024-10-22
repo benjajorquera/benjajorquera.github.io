@@ -12,6 +12,7 @@
 
     {% include header.html %}
 
+    {% if page.header %}
     <section id="banner" class="{{ page.style }}">
         <div class="inner">
             <span class="image">
@@ -29,6 +30,7 @@
             </div>
         </div>
     </section>
+    {% endif %}
 
     {% if page.about %}
     {% include about.html %}
@@ -36,10 +38,12 @@
 
     {{ content }}
 
-    {% if page.grid %}
-    <section style="border-bottom: solid 1px rgba(212, 212, 255, .1);">
-        {% include grid.html %}
-    </section>
+    {% if page.academic %}
+    {% include academic_projects.html %}
+    {% endif %}
+
+    {% if page.side_projects %}
+    {% include side_projects.html %}
     {% endif %}
 
     {% include footer.html %}

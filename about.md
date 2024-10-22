@@ -7,4 +7,5 @@ nav-menu: true
 style: style1
 order: 1
 about: true
+header: true
 ---

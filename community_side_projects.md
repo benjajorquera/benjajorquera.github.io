@@ -6,4 +6,6 @@ image: assets/images/background/stoic.jpeg
 nav-menu: true
 order: 4
 style: style4
+header: true
+side_projects: true
 ---
