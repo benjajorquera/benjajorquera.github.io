@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Daily reflection</h2>
+                </header>
+                <blockquote>
+                    <p id="quote"></p>
+                </blockquote>
+                <ul class="actions">
+                    <li><a href="#" id="inspire-btn" class="button next">Inspire Me</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
+
+<script>
+    // Lista de citas
+    const quotes = [
+        // Estoicismo
+        '"The happiness of your life depends upon the quality of your thoughts." — Marcus Aurelius',
+        '"He who fears death will never do anything worth of a man who is alive." — Seneca',
+        '"We suffer more often in imagination than in reality." — Seneca',
+        '"It is not what happens to you, but how you react to it that matters." — Epictetus',
+        '"The obstacle is the way." — Marcus Aurelius',
+
+        // Japonesas
+        '"Fall seven times, stand up eight." — Japanese Proverb',
+        '"Vision without action is a daydream. Action without vision is a nightmare." — Japanese Proverb',
+        '"After the rain, the earth hardens." — Japanese Proverb',
+        '"The bamboo that bends is stronger than the oak that resists." — Japanese Proverb',
+        '"If you know the enemy and know yourself, you need not fear the result of a hundred battles." — Sun Tzu',
+
+        // Inspiracionales
+        '"The only way to achieve the impossible is to believe it is possible." — Charles Kingsleigh',
+        '"It always seems impossible until it’s done." — Nelson Mandela',
+        '"What lies behind us and what lies before us are tiny matters compared to what lies within us." — Ralph Waldo Emerson',
+        '"You miss 100% of the shots you don’t take." — Wayne Gretzky',
+        '"The only limit to our realization of tomorrow is our doubts of today." — Franklin D. Roosevelt',
+
+        // Deportivas
+        '"It’s not whether you get knocked down, it’s whether you get up." — Vince Lombardi',
+        '"Champions keep playing until they get it right." — Billie Jean King',
+        '"You can’t put a limit on anything. The more you dream, the farther you get." — Michael Phelps',
+        '"The more difficult the victory, the greater the happiness in winning." — Pelé',
+        '"Do not let what you cannot do interfere with what you can do." — John Wooden',
+
+        // Proverbios
+        '"A journey of a thousand miles begins with a single step." — Lao Tzu',
+        '"The early bird catches the worm." — English Proverb',
+        '"A smooth sea never made a skilled sailor." — English Proverb',
+        '"Wisdom begins in wonder." — Socrates',
+        '"Better a diamond with a flaw than a pebble without one." — Chinese Proverb',
+
+        // Cuentos cortos y enseñanzas
+        '"The man who moves a mountain begins by carrying away small stones." — Confucius',
+        '"In the middle of difficulty lies opportunity." — Albert Einstein',
+        '"The fox and the grapes: When the fox realized he couldn’t reach the grapes, he said they were probably sour anyway." — Aesop’s Fable',
+        '"The wind does not break a tree that bends." — African Proverb',
+        '"An old Cherokee told his grandson about a battle between two wolves. One was evil, the other good. The boy asked, “Which wolf wins?” The old man replied, “The one you feed.”" — Native American Wisdom',
+
+        // Sabidurías
+        '"Know thyself." — Socrates',
+        '"This too shall pass." — Persian Proverb',
+        '"In seeking happiness for others, you find it for yourself." — Anonymous',
+        '"The greatest glory in living lies not in never falling, but in rising every time we fall." — Nelson Mandela',
+        '"The fool doth think he is wise, but the wise man knows himself to be a fool." — Shakespeare',
+
+        // Oraciones y moralejas
+        '"God, grant me the serenity to accept the things I cannot change, courage to change the things I can, and wisdom to know the difference." — Serenity Prayer',
+        '"Treat others as you would like to be treated." — The Golden Rule',
+        '"It is better to light a candle than curse the darkness." — Eleanor Roosevelt',
+        '"You can’t cross the sea merely by standing and staring at the water." — Rabindranath Tagore',
+        '"The pen is mightier than the sword." — Edward Bulwer-Lytton',
+
+        // Poemas y metáforas
+        '"Do not go gentle into that good night. Rage, rage against the dying of the light." — Dylan Thomas',
+        '"Two roads diverged in a wood, and I— I took the one less traveled by, And that has made all the difference." — Robert Frost',
+        '"A ship in harbor is safe, but that is not what ships are built for." — John A. Shedd',
+        '"Hope is the thing with feathers that perches in the soul." — Emily Dickinson',
+        '"We are all in the gutter, but some of us are looking at the stars." — Oscar Wilde',
+
+        // Extractos de canciones
+        '"You may say I’m a dreamer, but I’m not the only one." — John Lennon, "Imagine"',
+        '"Every little thing is gonna be alright." — Bob Marley, "Three Little Birds"',
+        '"Don’t stop believing, hold on to that feeling." — Journey, "Don’t Stop Believin’"',
+        '"It’s a beautiful day, don’t let it get away." — U2, "Beautiful Day"',
+        '"We’re just two lost souls swimming in a fish bowl, year after year." — Pink Floyd, "Wish You Were Here"'
+    ];
+
+    // Función para mostrar una cita aleatoria
+    function displayRandomQuote() {
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        document.getElementById('quote').innerHTML = quotes[randomIndex];
+    }
+
+    // Función para cambiar la cita con transición suave
+    function changeQuote() {
+        const quoteElement = document.getElementById('quote');
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+
+        // Fade out
+        quoteElement.style.transition = "opacity 1s";
+        quoteElement.style.opacity = 0;
+
+        // Espera 500ms para cambiar la cita y luego hace fade in
+        setTimeout(() => {
+            quoteElement.innerHTML = quotes[randomIndex];
+            quoteElement.style.transition = "opacity 1s";
+            quoteElement.style.opacity = 1;
+        }, 1000);
+    }
+
+    // Mostrar una cita aleatoria al cargar la página
+    displayRandomQuote();
+
+    // Añadir evento al botón
+    document.getElementById('inspire-btn').addEventListener('click', (e) => {
+        e.preventDefault();
+        changeQuote();
+    });
+</script>
