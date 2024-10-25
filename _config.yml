@@ -3,7 +3,7 @@ title: Portfolio
 subtitle: by HTML5 UP
 email: benja.jorquera.j@gmail.com
 description: Computer engineering professional portfolio
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: https://benjajorquera.github.io/ # the base hostname & protocol for your site
 author:
 street_address: Ñuñoa
