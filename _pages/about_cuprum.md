@@ -1,0 +1,9 @@
+Principal Cuprum’s Digital Experience (DX) team focuses on developing and optimizing digital products to ensure secure and efficient customer experiences for managing pensions and investments. Using agile methodologies, the team deploys solutions that drive engagement and support long-term financial goals.
+
+I initially trained with the web team and then joined the Customer Support team, later transitioning to the Advice and Support team, now Cuprum Advice, which provides personalized financial advice as part of a new company strategy. Each quarter operates like a sprint, focusing on high-impact tools, with goals tracked through metrics and KPIs in Target Process using a Kanban board.
+
+Our stack includes Vue, .NET, JavaScript, TypeScript, Node, and C# on the backend, with AWS and internal libraries for Vue components. We migrated to GitHub for version control, leveraging GitHub Actions for automated testing and deployment. Projects are hosted on AWS, and some services still run on-premises, managed with RFC processes and load balancing.
+
+On the .NET framework with C#, I contributed to Cuprum’s private client website, integrating backend services, JavaScript front-end, and CI/CD automation via Jenkins. This site includes financial products, traceability, logging, and an AI chatbot for customer support.
+
+The DX team also drives innovation through weekly engineering chapters, collaboration with Salesforce and Operations, and an annual DX Hackathon. We maintain high code quality with 80% test coverage, linting, and peer-reviewed pull requests, following SOLID principles. Documentation is managed in Confluence, security through JWT tokens, and reusable components are created for use across projects.
