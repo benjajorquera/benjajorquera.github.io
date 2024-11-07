@@ -1,8 +1,8 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /career_path/
+title: career path
+description: A summary of my professional experience and career progression
 nav: true
 nav_order: 7
 

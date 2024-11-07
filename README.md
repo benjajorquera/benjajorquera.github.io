@@ -1,4 +1,4 @@
-# Benjampin Jorquera's Computer engineering professional portfolio
+# Benjamín Jorquera's Computer engineering professional portfolio
 
 **With a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
 

@@ -83,7 +83,7 @@
     {
       "name": "Particle Swarm Optimization of Hyperparameters for Support Vector Machine Regression Models in the Analysis of Cerebral Autoregulation",
       "publisher": "University of Santiago de Chile",
-      "releaseDate": "2024",
+      "releaseDate": "2023",
       "url": "https://usach.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma992122741006116&context=L&vid=56USACH_INST:56USACH_INST&lang=es&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,%22Optimizaci%C3%B3n%20de%20hiper%20par%C3%A1metros%20basada%20en%20enjambre%20de%20part%C3%ADculas%20para%20modelos%20de%20regresi%C3%B3n%20de%20m%C3%A1quinas%20de%20vectores%20de%20soporte%20en%20el%20%20an%C3%A1lisis%20de%20la%20autorregulaci%C3%B3n%20cerebral%22&offset=0",
       "summary": "Cerebral blood autoregulation is the brain's ability to maintain adequate flow despite changes in blood pressure. There is no standardized protocol for assessing it, leading to various modeling approaches. This study explores using particle swarm optimization (PSO) to improve model selection, comparing it with traditional methods. It focused on FIR and ARX models, both linear and nonlinear. PSO performed well, especially with ARX models, improving search time and yielding results similar to exhaustive searches."
     }
@@ -155,7 +155,7 @@
   ],
   "references": [
     {
-      "name": "Sebastian Rozas",
+      "name": "Sebastian Rozas (+569 76180286)",
       "icon": "fa-solid fa-laptop",
       "reference": "Seba is Product Owner (or Product Manager) of the team I belong to, I have been working with him for more than a year, we have developed a great variety of projects together."
     }
@@ -168,8 +168,8 @@
         "Hospital Management System",
         "Healthcare Software"
       ],
-      "startDate": "",
-      "endDate": "2022",
+      "startDate": "2022.1",
+      "endDate": "2022.2",
       "url": "https://github.com/benjajorquera/interpinoAppBackup"
     }
   ]
