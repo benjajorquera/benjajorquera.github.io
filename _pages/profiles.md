@@ -10,19 +10,19 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: centry_pic.png
+    content: about_centry.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p><a href="https://home.centry.cl/">Centry</a></p><br>
+      <p>2017 - 2018</p><br>
+      <p>Vitacura, Chile</p><br>
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: cuprum_team.jpg
+    content: about_cuprum.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p><a href="https://www6.cuprum.cl/">Cuprum AFP</a></p><br>
+      <p>2022 - Present</p><br>
+      <p>Las Condes, Chile</p><br>
 ---

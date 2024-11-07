@@ -1,0 +1,5 @@
+Centry is an advanced integration platform for marketplaces, centralizing and streamlining sales management across multiple channels, allowing companies to manage orders, messages, and inventory from a single interface.
+
+In my first professional internship as a civil computer engineer in 2017–2018, I worked as a junior software developer, documenting tasks and working with MongoDB, Ruby on Rails, and JavaScript, along with Bitbucket for version control and Postman for API testing.
+
+During this internship, I contributed to developing a tool to monitor synchronization errors across platforms, which improved issue tracking and client support. My main achievement was creating a Python tool to import product data from MercadoLibre’s API into Excel, capturing details like SKU, color, and images. This tool optimized team workflows and provided the business team with a user-friendly, efficient solution.
