@@ -5,7 +5,7 @@ permalink: /projects/
 description: Highlights of my involvement in communities and personal projects
 nav: true
 nav_order: 3
-display_categories: [technical tests, samples, coursework, community]
+display_categories: [technical tests, samples, workshops, coursework, community]
 horizontal: false
 ---
 
