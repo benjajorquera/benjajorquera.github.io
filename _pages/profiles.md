@@ -14,6 +14,7 @@ profiles:
     content: about_centry.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <h4>Jr. Developer</h4>
       <p><a href="https://home.centry.cl/">Centry</a></p><br>
       <p>2017 - 2018</p><br>
       <p>Vitacura, Chile</p><br>
@@ -22,6 +23,7 @@ profiles:
     content: about_cuprum.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <h4>Associate Engineer</h4>
       <p><a href="https://www6.cuprum.cl/">Cuprum AFP</a></p><br>
       <p>2022 - Present</p><br>
       <p>Las Condes, Chile</p><br>
